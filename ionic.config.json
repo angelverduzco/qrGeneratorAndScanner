@@ -1,0 +1,7 @@
+{
+  "name": "qrGenerator",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
