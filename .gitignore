@@ -17,6 +17,7 @@
 .env.development.local
 .env.test.local
 .env.production.local
+.env
 /.nx
 /.nx/cache
 /.vscode/*
@@ -29,3 +30,21 @@ yarn-error.log*
 
 # Optional eslint cache
 .eslintcache
+
+# Android/Gradle
+android/.gradle/
+android/local.properties
+android/app/build/
+android/build/
+android/.idea/
+
+# Cypress
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+# Capacitor
+capacitor.config.json
+
+# Caché
+.turbo/
